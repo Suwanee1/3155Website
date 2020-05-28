@@ -1,0 +1,88 @@
+:root {
+    background-color: #1A1A1D; 
+    font-family:"Segoe UI", "Helvetica Neue";
+    color: #1A1A1D;
+}
+
+html, body {
+    height: 100%; 
+}
+
+body {
+    font-size: 16px;
+    background-color: #4E4E50;
+    width: 1200px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    border-top: 5px solid black; 
+    padding-top: 10px;
+    height: 75%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: darkgrey;
+}
+
+li{
+    float: left;
+}
+
+.nav {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 0;
+    overflow: hidden;
+    background-color:#6F2232;
+    width: 1200px;
+    
+}
+
+.newsPicture {
+    width: 1200px;
+    height: 630px; 
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid black; 
+    
+}
+
+.whoDesc {
+    width: 50%; 
+    position: relative;
+    left: 50px;
+}
+
+#newsInfo {
+    width: 1200px;
+    height: 50px;
+    background-color: rgb(107, 107, 107);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+	font-size: 12px;
+    position: absolute;
+    width: 1200px;
+    bottom: 0px; 
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
