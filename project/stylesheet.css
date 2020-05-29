@@ -5,7 +5,9 @@
 }
 
 html, body {
-    height: 100%; 
+    height: max-content;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
 }
 
 body {
@@ -14,8 +16,7 @@ body {
     width: 1200px;
     margin-left: auto; 
     margin-right: auto;
-    border-right: solid black 5px;
-    border-left: solid black 5px;
+
 }
 
 h1 {
@@ -48,18 +49,25 @@ li{
     margin-right: auto; 
     padding: 0;
     overflow: hidden;
-    background-color:#6F2232;
+    background-color:#950740;
     width: 1200px;
     
 }
 
-.newsPicture {
+.newsPictures, #newsPic {
+    position: relative; 
     width: 1200px;
     height: 630px; 
     margin-left: auto;
     margin-right: auto;
-    border:1px solid black; 
+    /*border:1px solid black;*/
+    padding-top: 2%;
     
+}
+
+.homePics {
+    width: 1200px; 
+    height: 100%;
 }
 
 .whoDesc {
@@ -79,10 +87,25 @@ footer {
     text-align: center;
     font-style: italic;
 	font-size: 12px;
-    position: absolute;
+    position: relative;
     width: 1200px;
-    bottom: 0px; 
+    /*bottom: -100%;*/ 
     border-top: 5px solid black;
     border-bottom: 5px solid black;
-
 }
+
+.cap {
+    color: #f2f2f2;
+    font-size: 15px;
+    background-color: black;
+    padding: 0px ;
+    position: absolute;
+    bottom: 8px;
+    width: 1200px;
+    text-align: center;
+  }
+
+  .newsStories {
+      padding-bottom: 10%;
+      padding-top: 10%;
+  }
