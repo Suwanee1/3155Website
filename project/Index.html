@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Creation of the header, including the meta, the title, the javascript, and link to the css file -->
     <head>
         <title>SoleSupply</title>
         <meta name="description" content="3135 Project">
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script src="jquery-3.5.1.min.js"></script>
     </head>
     <body>
         <header>
@@ -19,21 +21,43 @@
                     <li><a href="About.html">About</a></li>
                     <li><a href="Contact.html">Contact us</a></li> 
                     <li><a href="Drop.html">Drop dates</a></li>
+                    <li><a href="Info.html">Shoe information</a></li>
                 </ul>
             </div>
 
-            <!-- Creation of the top news section -->
             <!-- implement slide show with JS later -->
+            <script src="java.js"></script>
+            <div id="slideshow">
+                <div>
+                    <img src="./chunkyDunky.jpg" id="picSize">
+                    <p>
+                        This Nike Dunk Low sold out instantly on Tuesday, May 16th.
+                        the resell value is currently over $1,200. 
+                    </p>
+                </div>
+                <div>
+                    <img src="./travis270.jpeg" id="picSize">
+                    <p>
+                        The new Travis Scott 270 is the latest shoe released from the rapper.
+                            this shoe released on May 29th, 2020.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Creation of the top news section -->
+            <!-- This section was replaced by the slideshow at the top of the page -->
+            
             <div class="homePics">
                 <div class="newsPictures"> 
-                    <img src="./chunkyDunky.jpg" alt="Shoe" id="newsPic">
+                    <img src="./chunkyDunky.jpg" alt="Shoe" id="newsPicOne">
                     <div class="cap">
                         This Nike Dunk Low sold out instantly on Tuesday, May 16th.
                         the resell value is currently over $1,200. 
                     </div>
                 </div>
+                <!-- Creation of the second news story along with adding a picture -->
                 <div class="newsPictures">  
-                    <img src="./travis270.jpeg" alt="TravisShoe" id="newsPic">
+                    <img src="./travis270.jpeg" alt="TravisShoe" id="newsPicTwo">
                     <div class="cap">
                         The new Travis Scott 270 is the latest shoe released from the rapper.
                         this shoe released on May 29th, 2020.
@@ -41,16 +65,28 @@
                 </div>
             </div>
 
+            <!-- The above section is hidden, still provi√ded to show the change -->
+
+            <!-- Creating writting text for news stories -->
             <div class="newsStories">
-                <div class="story">
-                    <h3>Ex</h3>
+                <div id="text">
+                    <h3>Riots in LA brings bad news for shoe stores</h3>
                     <p>
-                        lpsom
+                        Shoes stores in Los Angeles, Californaina have fallen victim to the 
+                        looting following the peacful protests in LA. Stores such as Nike, Supreme,
+                        and FlightClub got their stock taken.
+                        <em><a href="https://www.complex.com/sneakers/2020/05/nike-supreme-flight-club-looted-protests">Read more!</a></em>
                     </p>
-                </div>
+                     
+                </div> 
+                   <!-- Adding the picture of an LA protest to the news story -->
+                   <img src="./laProtest.jpeg" id="storyPictureOne" alt="protests"> 
             </div>
-            
+
+        
+        
         </main>
+         <!-- Creation of the footer with validation links -->
         <footer>
             <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
             <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>

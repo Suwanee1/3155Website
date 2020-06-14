@@ -5,7 +5,7 @@
 }
 
 html, body {
-    height: max-content;
+    height: 1200px;
     border-right: solid black 5px;
     border-left: solid black 5px;
 }
@@ -51,10 +51,12 @@ li{
     overflow: hidden;
     background-color:#950740;
     width: 1200px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     
 }
 
-.newsPictures, #newsPic {
+.newsPictures, #newsPic, #newsPicTwo {
     position: relative; 
     width: 1200px;
     height: 630px; 
@@ -68,10 +70,17 @@ li{
 .homePics {
     width: 1200px; 
     height: 100%;
+    display: none;
 }
 
 .whoDesc {
     width: 50%; 
+    position: relative;
+    left: 50px;
+}
+
+.whyDesc {
+    width: 50%;
     position: relative;
     left: 50px;
 }
@@ -89,7 +98,7 @@ footer {
 	font-size: 12px;
     position: relative;
     width: 1200px;
-    /*bottom: -100%;*/ 
+    bottom: -100%;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
 }
@@ -105,7 +114,84 @@ footer {
     text-align: center;
   }
 
-  .newsStories {
-      padding-bottom: 10%;
-      padding-top: 10%;
+  .newsStories, #text {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    top: 350px; 
+    left: 150px;
+    
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+
+  .dropTable {
+      padding-bottom: 30px;
+      padding-top: 15px;
+  }
+
+  #drops {
+      width: 100%;
+      text-align: center;
+      position: relative;
+      margin-right: auto; 
+      margin-left: auto;
+  }
+  
+  #drops td{
+      padding-bottom: 6px;
+      padding-top: 6px;
+  }
+
+  span {
+      font-weight: bold;
+  }
+
+  #teamPicture {
+      height: 150px;
+      width: 300px; 
+      position: absolute;
+      right: -500px;  
+      bottom: -75px; 
+      border: solid black 3px;
+  }
+
+  #storyPictureOne {
+      border: solid 3px black;
+      position: absolute ;
+      height: 300px; 
+      width: 200;
+      top: 400px;
+      right: -300px;
+  }
+
+  #picSize {
+      height: 500px;
+      width: 1200px;
+  }
+
+  .contact {
+      text-align: center;
+  }
+
+  #dropsText {
+      text-align: center;
+  }
+
+  #slideshow {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+  }
+  
+  #slideshow > div {
+    position: absolute;
+  }
+
+  #slideshow p { 
+    position: relative;
+    color: white;
+    background-color: black;
+    text-align: center;
+    top: -10px;
   }
