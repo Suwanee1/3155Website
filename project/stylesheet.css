@@ -4,19 +4,27 @@
     color: #1A1A1D;
 }
 
-html, body {
-    height: 1200px;
-    border-right: solid black 5px;
-    border-left: solid black 5px;
-}
-
-body {
+body, html {
+    height: fit-content;
     font-size: 16px;
     background-color: #4E4E50;
     width: 1200px;
     margin-left: auto; 
     margin-right: auto;
 
+}
+
+body {
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+
+.indexBody {
+    height: 1100px;
+}
+
+.indexFooter {
+    top: 910px;
 }
 
 h1 {
@@ -170,7 +178,7 @@ footer {
       width: 1200px;
   }
 
-  .contact {
+  #center {
       text-align: center;
   }
 
@@ -178,17 +186,18 @@ footer {
       text-align: center;
   }
 
-  #slideshow {
-    position: relative;
+  #slide {
+    position: absolute;
     width: 1200px;
-    height: 100%;
+    height: 600px;
   }
   
-  #slideshow > div {
+  #slide > div {
     position: absolute;
+    
   }
 
-  #slideshow p { 
+  #slide p { 
     position: relative;
     color: white;
     background-color: black;
