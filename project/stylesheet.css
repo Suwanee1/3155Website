@@ -168,12 +168,12 @@ footer {
       border: solid 3px black;
       position: absolute ;
       height: 300px; 
-      width: 200;
+      width: 400px;
       top: 400px;
       right: -300px;
   }
 
-  #picSize {
+  .picSize {
       height: 500px;
       width: 1200px;
   }

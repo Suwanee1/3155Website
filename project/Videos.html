@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Creation of the header, including the meta, the title, and link to the css file -->
+    <head>
+        <title>SoleSupply</title>
+        <meta name="description" content="3135 Project">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+        <!-- magnific=popup css file -->
+        <link rel="stylesheet" type="text/css" href="./magnific-popup.css">
+    </head>
+    <body>
+        <header>
+            <h1>SoleSupply</h1> 
+        </header>
+
+        <main>
+            <!-- Creation of the navigation bar -->
+            <div>
+                <ul class="nav"> 
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact us</a></li> 
+                    <li><a href="Drop.html">Drop dates</a></li>
+                    <li><a href="Info.html">Shoe information</a></li>
+                    <li><a href="Videos.html">Videos</a></li>
+                </ul>
+            </div>
+
+            <!-- explanation as to what is going to be found on the page -->
+            <div id="center"> 
+                <p><span>Here you will be able to find information regarding different the buying of shoes and more!</span></p>
+            </div>
+
+            <!-- Using the same accordion function to better view the data -->
+            <div id="accordion">
+
+                <!-- Intoduction video-->
+                <h3>Introduction to sneakers</h3>
+                <div>
+                    <p>
+                        This video is a general expalnation to the world of sneakers, 
+                        giving you a buy guide and what to look out for. 
+                    </p>
+                    <p>
+                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=OYLEs5MvDgo">Open YouTube video</a>
+                    </p>
+                </div>
+                <!-- Yeezy explanation video -->
+                <h3>How yeezys came to be</h3>
+                <div>
+                    <p>
+                        This video explains how yeezys came to be what they are today, giving explanations
+                        to how Kanye West built the brand.
+                    </p>
+                    <p> 
+                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=c9zuHpa-QnQ">Open YouTube video</a>
+                    </p>
+                </div>
+                <!-- Recently hyped video -->
+                <h3>Most hyped recently</h3>
+                <div>
+                    <p>
+                        This video goes though some of the recent most hyped shoes, giving viewers
+                        a look at what's hot right now.
+                    </p>
+                    <p>
+                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LYBpLVGnQRY">Open YouTube video</a>
+                    </p>
+                </div>
+            </div>    
+        
+        </main>
+        <!-- Creation of the footers with the validation links -->
+        <footer>
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </footer>
+        <!-- calling the differnt scripts used for the pugin that allows the videos to play in the
+             same browser window -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="jquery.magnific-popup.js"></script>
+        <script src="magnific.js"></script>
+    </body>
+</html>
